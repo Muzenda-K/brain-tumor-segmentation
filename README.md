@@ -252,11 +252,11 @@ If you use this code in your research, please cite:
 
 ```
 @misc{brain-tumor-segmentation-unet,
-  author = {Your Name},
+  author = {Muzenda K},
   title = {Multi-Output U-Net for Brain Tumor Segmentation},
-  year = {2023},
+  year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/brain-tumor-segmentation}}
+  howpublished = {\url{https://github.com/Muzenda-K/brain-tumor-segmentation}}
 }
 ```
