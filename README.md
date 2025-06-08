@@ -92,27 +92,6 @@ The model expects input images with shape (240, 240, 4) where the channels are:
 3. T2-weighted
 4. FLAIR
 
-### Data Structure
-
-Organize your dataset in the following structure:
-
-```
-data/
-├── train/
-│   ├── images/
-│   │   ├── case_001.npy
-│   │   ├── case_002.npy
-│   │   └── ...
-│   └── masks/
-│       ├── case_001_wt.npy
-│       ├── case_001_tc.npy
-│       ├── case_001_et.npy
-│       └── ...
-└── val/
-    ├── images/
-    └── masks/
-```
-
 ### Preprocessing
 
 1. Normalize each modality separately (zero mean, unit variance)
